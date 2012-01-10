@@ -1,7 +1,7 @@
 describe "Strings" do
   context "When concatenating a string" do
     it "returns a new string containing a string concatenated to another string" do
-      str = "Hello "
+      str = "Hello"
       
       str << "World"
       
