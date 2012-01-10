@@ -3,7 +3,7 @@ describe "Strings" do
     it "returns a new string containing a string concatenated to another string" do
       str = "Hello"
       
-      str << "World"
+      str << " World"
       
       str.should eq "Hello World"
     end
